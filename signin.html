@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+<title>sign in</title>
+<link rel="stylesheet" type="text/css" href="fanext.css">
+<style>
+body  {
+  background-image: url("jin2.jpg");
+  font-size: 20px;
+  }
+  </style>
+</head>
+<body >
+<script src="jinscr.js"></script>
+<form name="Form" method="POST">
+<table style="background-color: PapayaWhip ;margin: 200px">
+<tr><td colspan="2" align="cEnter">
+<h3 style="color: RebeccaPurple"> <u>Register Yourself </u> </h3>
+</td></tr>
+<tr>
+<td><label for="name">   Please Enter Your Name :</label> </td>
+<td><input type="text" placeholder="Your name" required id="name" autocomplete="off" name="name_btn"></td> 
+</tr>
+<tr>
+<td><label for="con">  Enter Your Contact No.:</label> </td>
+<td><input type="text" placeholder="Enter a valid contact info" required autocomplete="off" id="con" name="con_btn"></td>
+</tr>
+<tr>
+<td><label for="email">   Enter Your Email ID:</label></td>
+<td><input type ="email" placeholder="Enter a valid email" required autocomplete="off" id="email" name="email_btn"></td> 
+</tr>
+<tr>
+<td><label for="gender">   Enter Your Gender:</label></td> 
+<td><input type ="radio" value="male" required  id="gender" name="gender_btn"> 
+<label for="male">Male</label>
+<input type ="radio" value="female" required  id="gender" name="gender_btn">
+<label for="female">Female</label>
+</td>
+</tr>
+<tr>
+<td><label for="user">   Enter Your USERNAME:</label></td>
+<td><input type="text" placeholder="username" autocomplete="off" required  id="user" name="user_btn">
+</td>
+</tr>
+<tr>
+<td><label for="password">   Enter Your PASSWORD:</label></td>
+<td><input type="password" placeholder="password" autocomplete="off" required id="password" name="pass_btn">
+</td>
+</tr>
+ <tr>
+<td colspan="2" align="cEnter"><label for="submit"> <input type="button" value="Submit" height="60" width="100" onClick="validateForm()"></label>
+</td>
+</tr>
+</form>
+</table></body></html>
